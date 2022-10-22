@@ -93,3 +93,22 @@ header .follow a:hover{
   cursor: pointer;
   display: none;
 }
+
+
+@media (max-width: 991px){
+  html{
+    font-size: 55%;
+  }
+  
+  body{
+    padding: 0;
+  }
+  
+  #menu-bars{
+    display: initial;
+  }
+  
+  header{
+    left: -120px;
+  }
+}
